@@ -7,7 +7,6 @@
 function setCountries(country) {
     country.map(country => {
         console.log(country);
-        // document.getElementById('country').innerText = country.name;
         let div = document.createElement('div');
         div.classList.add('col-md-4');
         div.classList.add('col-sm-6');
